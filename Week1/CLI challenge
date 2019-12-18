@@ -1,0 +1,36 @@
+1. How do I create a hidden file or folder? How do I display it in the CLI?
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ touch newfile.txt
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ attrib +h newfile.txt
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ ls -a
+./  ../  newfile.txt
+
+
+
+
+2. How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ mkdir -p newFolder/week1/challenge1
+
+
+
+3. How do I append a message to a file, without a newline character, so the output would be:
+
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ echo 'first message' > textfile.txt
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ echo 'second message' >> textfile.txt
+
+zG@zG-Bilgisayar MINGW64 ~/desktop/HYF/CLI
+$ cat textfile.txt
+first message
+second message
+
