@@ -52,17 +52,30 @@ li a {
   border-radius: 5px;
 }
 
-#info {
-  margin-top: px;
-  padding-top: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+.container {
+ 
+  padding:8%;
   vertical-align: middle;
-  height: 550px;
+  height: auto;
   background-color: #5cdb95;
   font-size: 2em;
   text-align: center;
+
 }
+
+.container:nth-of-type(2){
+  background-color:#8ee4af;
+}
+
+.container:nth-of-type(4){
+  padding-bottom: 25%;
+  color: #05386b;
+  font-size: 1em;
+  background-color:#8ee4af;
+  height: auto;
+  text-align: left;
+}
+
 
 #information {
   position: relative;
@@ -95,13 +108,6 @@ aside {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#education {
-  height: 550px;
-  width: 100%;
-  background-color: #8ee4af;
-  font-size: 2em;
-  text-align: center;
-}
 
 #graduation {
   padding-top: 10%;
@@ -110,25 +116,10 @@ aside {
   color: #05386b;
 }
 
-#work {
-  height: 550px;
-  width: 100%;
-  background-color: #5cdb95;
-  font-size: 2em;
-  text-align: center;
-}
-
 #workexperince {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 10%;
-}
-
-#contact {
-  height: 600px;
-  width: 100%;
-  background-color: #8ee4af;
-  color: #05386b;
 }
 
 #contact-title {
