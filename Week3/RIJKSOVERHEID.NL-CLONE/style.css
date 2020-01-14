@@ -10,6 +10,11 @@
   }
   
   
+.logo .container{
+  margin-left: 25%;
+}
+
+
   #maincontainer {
     background-color: #ffffff;
     text-align: center;
@@ -452,6 +457,16 @@
      margin-left: 10px;
        
   }
+
+  .logo .container{
+
+    margin-left: 40%;
+  }
+
+  .logo .container img{
+    width: 250px;
+    height: 90px;
+  }
   
     #navBar .container {
       height: auto;
@@ -487,7 +502,18 @@
   #navBar .container:hover .navSide {
     display: flex;  
     order: 3;
+    
   }
+
+  #navBar .container:hover .navSide li{
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-left: 220px;
+    padding-right: 200px;
+  
+  
+  }
+
   
   
    .searchForm {
